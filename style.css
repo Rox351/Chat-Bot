@@ -1,0 +1,48 @@
+#chat-container {
+  width: 550px;
+  height: 520px;
+  margin: 0 auto;
+  background-color: #f2f2f2;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+#chat-output {
+  height: 400px;
+  overflow: scroll;
+  border-radius: 10px;
+}
+
+#suggestion-list {
+  display: block;
+  list-style: none;
+  height: 50px;
+  overflow: scroll;
+  background: royalblue;
+  border-radius: 10px;
+}
+
+#suggestion-list li:hover {
+  color: #FFD700;
+  cursor: pointer;
+  font-size: larger;
+}
+
+#chat-input {
+  width: 100%;
+  padding: 10px;
+  margin-top: 20px;
+  box-sizing: border-box;
+  border-radius: 10px;
+}
+
+button[type="submit"] {
+  width: 100%;
+  padding: 10px;
+  margin-top: 20px;
+  background-color: blue;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  border-radius: 10px;
+}
